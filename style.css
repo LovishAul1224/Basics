@@ -1,0 +1,133 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    position: relative;
+    /* background-size: cover; */
+
+}
+.page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.page1 nav{
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    height: 10vh;
+    width: 100vw;
+    /* background-color: yellow; */
+}
+.page1 nav img{
+    width: 9%;
+    margin-top: -1.7vw;
+}
+.right-nav button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: #0b48ed;
+    color: white;
+    font-family: 'anurati';
+    font-size: 15px;
+}
+.page1-bottom{
+    position: absolute;
+    bottom: 30vh;
+    left: 10vw;
+    height: 30vh;
+    width: 50vw;
+    /* background-color: red; */
+
+}
+
+.page1-bottom h1{
+    font-family: cursive;
+    font-size: 3rem;
+    font-weight: 100; /*no use of these */
+    line-height: 1;  /*no use of these */
+}
+.page1-bottom-inner{
+    position: absolute;
+    font-family: cursive;
+    height: 30%;
+    width: 100%;
+    /* background-color: hotpink; */
+    bottom: 15%;
+}
+.page1-bottom-inner  button{
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+
+    /* left: 40vw; */
+}
+.page1-bottom-inner button{
+    position: absolute;
+    left: 23.5vw;   
+    padding: 10px 20px;
+    border-radius: 35px;
+    bottom: 0.4vh;
+    background: whitesmoke;
+    
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+#page2{
+    display: flex;
+    align-items: start;
+    /* font-family: 'anurati'; */
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0a3cce;
+    padding: 0vw 8vw;
+    color: white;
+}
+#page2 h2{
+    margin-bottom: 2vw;
+    font-weight: 100;
+
+}
+#page2 h1{
+    font-weight: 100;
+    line-height: 1.3;
+    width: 90%;
+    font-size: 2.5vw;
+    color: #dadada81;
+}
+#page3{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: red; */
+}
+#page3 canvas{
+    max-width: 100vw;
+    max-height: 100vh;
+    position: relative;
+}
