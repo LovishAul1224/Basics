@@ -139,7 +139,7 @@ function files(index) {
     ./frames00064.png
     ./frames00065.png
     ./frames00066.png
-    ./frames00067.png
+    ./frames00067.png // doubts
  `;
   return data.split("\n")[index];
 }
